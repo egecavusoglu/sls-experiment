@@ -2,7 +2,7 @@
 const fetch = require("cross-fetch");
 
 module.exports.run = async (event, context) => {
-  for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 5; i++) {
     // Send request to traditional servers
     await sendRequest("traditional");
     // Send request to lambda function
