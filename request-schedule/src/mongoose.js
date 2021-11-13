@@ -6,11 +6,8 @@ https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/uti
 **/
 
 const MONGODB_URI =
-  "mongodb+srv://user:pwd123@sls-experiment-cluster.tzz76.mongodb.net";
-
-if (!MONGODB_URI) {
-  throw new Error("Please define the mongo uri in next.config.js");
-}
+  // "mongodb+srv://user:pwd123@sls-experiment-cluster.tzz76.mongodb.net";
+  "mongodb+srv://user:pwd123@sls-experiment-cluster.tzz76.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 /**
  * Global is used here to maintain a cached connection across hot reloads

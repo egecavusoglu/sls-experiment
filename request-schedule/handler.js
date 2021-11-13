@@ -2,11 +2,11 @@
 const fetch = require("cross-fetch");
 
 module.exports.run = async (event, context) => {
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 1; i++) {
     // Send request to traditional servers
-    sendRequest("traditional");
+    await sendRequest("traditional");
     // Send request to lambda function
-    sendRequest("lambda");
+    await sendRequest("lambda");
   }
 };
 
@@ -21,7 +21,7 @@ async function sendRequest(service) {
     let response = await fetch(serviceUri);
     response = await response.json();
     const milisecondsElapsed = Date.now() - start;
-    console.log("GOT", response);
+    console.log("RESPONSE", service, response);
     await saveTransaction({
       service,
       executionTime: milisecondsElapsed,
