@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "description": "Example of creating a function that runs as a cron job using the serverless `schedule` event",
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "mongoose": "^6.0.12"
+  },
+  "scripts": {
+    "run-locally": "sls invoke local -f rateHandler"
+  }
 }
