@@ -1,3 +1,3 @@
 # sls-experiment
 
-Comparing Serverless vs traditional servers experiment run for Technical Writing 310 class at WUSTL.
+Comparing Serverless vs traditional in an experiment for Technical Writing class at WUSTL.
