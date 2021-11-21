@@ -6,7 +6,6 @@ https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/uti
 **/
 
 const MONGODB_URI =
-  // "mongodb+srv://user:pwd123@sls-experiment-cluster.tzz76.mongodb.net";
   "mongodb+srv://user:pwd123@sls-experiment-cluster.tzz76.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 /**
