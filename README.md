@@ -2,4 +2,4 @@
 
 Comparing serverless vs traditional servers in an experiment for Technical Writing class at WUSTL.
 
-Check the PDF for the paper above.
+Find paper [here](./ThePaper.pdf).
